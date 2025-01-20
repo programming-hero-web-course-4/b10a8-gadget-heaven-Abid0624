@@ -1,0 +1,134 @@
+[
+  {
+    "product_id": 1,
+    "product_title": "Apple AirPods Pro (2nd Generation)",
+    "product_image": "https://i.ibb.co.com/jH2fmL6/airpod2.jpg",
+    "category": "Wireless Headphones",
+    "price": 249.99,
+    "description": "Noise-cancelling wireless earbuds with spatial audio.",
+    "Specification": [
+      "Bluetooth 5.3",
+      "MagSafe charging",
+      "Active Noise Cancelling"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "Apple"
+  },
+  {
+    "product_id": 2,
+    "product_title": "Dell XPS 13 Plus",
+    "product_image": "https://i.ibb.co.com/PrK2y39/Dell-XPS-13-Plus-1.jpg",
+    "category": "Laptop",
+    "price": 1299.99,
+    "description": "Ultra-slim and powerful laptop with a stunning OLED display.",
+    "Specification": ["13.4-inch OLED", "16GB RAM", "512GB SSD"],
+    "availability": true,
+    "rating": 4.6,
+    "brand": "Dell"
+  },
+  {
+    "product_id": 3,
+    "product_title": "Apple iPhone 15 Pro Max",
+    "product_image": "https://i.ibb.co.com/tXLTcN8/apple15pro.webp",
+    "category": "Smartphone",
+    "price": 1199.0,
+    "description": "Flagship smartphone with A17 Pro chip and Titanium design.",
+    "Specification": [
+      "6.7-inch Super Retina XDR",
+      "256GB storage",
+      "48MP camera"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "brand": "Apple"
+  },
+  {
+    "product_id": 4,
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "https://i.ibb.co.com/rmYm4Lm/sony-wireless.jpg",
+    "category": "Wireless Headphones",
+    "price": 349.99,
+    "description": "Industry-leading noise-cancelling over-ear headphones.",
+    "Specification": ["Bluetooth 5.2", "30-hour battery life", "Hi-Res Audio"],
+    "availability": true,
+    "rating": 4.7,
+    "brand": "Sony"
+  },
+  {
+    "product_id": 5,
+    "product_title": "HP Spectre x360 14",
+    "product_image": "https://i.ibb.co.com/hV7LVnC/hp.jpg",
+    "category": "Laptop",
+    "price": 1499.99,
+    "description": "2-in-1 convertible laptop with a 3K display and sleek design.",
+    "Specification": ["14-inch 3K OLED", "16GB RAM", "1TB SSD"],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "HP"
+  },
+  {
+    "product_id": 6,
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://i.ibb.co.com/MRc28N7/Galaxy-S23-Ultra.jpg",
+    "category": "Smartphone",
+    "price": 1199.99,
+    "description": "High-end smartphone with a 200MP camera and S Pen support.",
+    "Specification": ["6.8-inch AMOLED", "512GB storage", "200MP camera"],
+    "availability": true,
+    "rating": 4.7,
+    "brand": "Samsung"
+  },
+  {
+    "product_id": 7,
+    "product_title": "Bose QuietComfort 45",
+    "product_image": "https://i.ibb.co.com/ZTQcWXx/bose45.webp",
+    "category": "Wireless Headphones",
+    "price": 329.99,
+    "description": "Comfortable over-ear headphones with world-class noise cancellation.",
+    "Specification": [
+      "Bluetooth 5.1",
+      "24-hour battery life",
+      "Noise Cancelling"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "brand": "Bose"
+  },
+  {
+    "product_id": 8,
+    "product_title": "Microsoft Surface Laptop Studio",
+    "product_image": "https://i.ibb.co.com/Wz4NCT1/microsoft-surface-laptop-studio-2-Custom-Mac-BD.webp",
+    "category": "Laptop",
+    "price": 1799.99,
+    "description": "Versatile laptop for creators with a high-resolution touchscreen.",
+    "Specification": ["14.4-inch touchscreen", "32GB RAM", "1TB SSD"],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "Microsoft"
+  },
+  {
+    "product_id": 9,
+    "product_title": "Google Pixel 8 Pro",
+    "product_image": "https://i.ibb.co.com/MNXd6z2/Pixel-8-Pro-Obsidian-7046.jpg",
+    "category": "Smartphone",
+    "price": 999.0,
+    "description": "AI-powered smartphone with advanced camera features.",
+    "Specification": ["6.7-inch OLED", "256GB storage", "50MP main camera"],
+    "availability": true,
+    "rating": 4.7,
+    "brand": "Google"
+  },
+  {
+    "product_id": 10,
+    "product_title": "Apple MacBook Pro 16",
+    "product_image": "https://i.ibb.co.com/wsQRgxC/Macbook-pro-16-M1-Max-BD-Price.jpg",
+    "category": "Laptop",
+    "price": 2499.99,
+    "description": "High-performance laptop with the M2 Pro chip for professionals.",
+    "Specification": ["16-inch Liquid Retina XDR", "32GB RAM", "1TB SSD"],
+    "availability": true,
+    "rating": 4.9,
+    "brand": "Apple"
+  }
+]
