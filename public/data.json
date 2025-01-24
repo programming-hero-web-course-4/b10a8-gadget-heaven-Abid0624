@@ -6,7 +6,7 @@
     "category": "Wireless Headphones",
     "price": 249.99,
     "description": "Noise-cancelling wireless earbuds with spatial audio.",
-    "Specification": [
+    "specification": [
       "Bluetooth 5.3",
       "MagSafe charging",
       "Active Noise Cancelling"
@@ -22,7 +22,7 @@
     "category": "Laptop",
     "price": 1299.99,
     "description": "Ultra-slim and powerful laptop with a stunning OLED display.",
-    "Specification": ["13.4-inch OLED", "16GB RAM", "512GB SSD"],
+    "specification": ["13.4-inch OLED", "16GB RAM", "512GB SSD"],
     "availability": true,
     "rating": 4.6,
     "brand": "Dell"
@@ -34,7 +34,7 @@
     "category": "Smartphone",
     "price": 1199.0,
     "description": "Flagship smartphone with A17 Pro chip and Titanium design.",
-    "Specification": [
+    "specification": [
       "6.7-inch Super Retina XDR",
       "256GB storage",
       "48MP camera"
@@ -50,7 +50,7 @@
     "category": "Wireless Headphones",
     "price": 349.99,
     "description": "Industry-leading noise-cancelling over-ear headphones.",
-    "Specification": ["Bluetooth 5.2", "30-hour battery life", "Hi-Res Audio"],
+    "specification": ["Bluetooth 5.2", "30-hour battery life", "Hi-Res Audio"],
     "availability": true,
     "rating": 4.7,
     "brand": "Sony"
@@ -62,7 +62,7 @@
     "category": "Laptop",
     "price": 1499.99,
     "description": "2-in-1 convertible laptop with a 3K display and sleek design.",
-    "Specification": ["14-inch 3K OLED", "16GB RAM", "1TB SSD"],
+    "specification": ["14-inch 3K OLED", "16GB RAM", "1TB SSD"],
     "availability": true,
     "rating": 4.8,
     "brand": "HP"
@@ -74,7 +74,7 @@
     "category": "Smartphone",
     "price": 1199.99,
     "description": "High-end smartphone with a 200MP camera and S Pen support.",
-    "Specification": ["6.8-inch AMOLED", "512GB storage", "200MP camera"],
+    "specification": ["6.8-inch AMOLED", "512GB storage", "200MP camera"],
     "availability": true,
     "rating": 4.7,
     "brand": "Samsung"
@@ -86,7 +86,7 @@
     "category": "Wireless Headphones",
     "price": 329.99,
     "description": "Comfortable over-ear headphones with world-class noise cancellation.",
-    "Specification": [
+    "specification": [
       "Bluetooth 5.1",
       "24-hour battery life",
       "Noise Cancelling"
@@ -102,7 +102,7 @@
     "category": "Laptop",
     "price": 1799.99,
     "description": "Versatile laptop for creators with a high-resolution touchscreen.",
-    "Specification": ["14.4-inch touchscreen", "32GB RAM", "1TB SSD"],
+    "specification": ["14.4-inch touchscreen", "32GB RAM", "1TB SSD"],
     "availability": true,
     "rating": 4.8,
     "brand": "Microsoft"
@@ -114,7 +114,7 @@
     "category": "Smartphone",
     "price": 999.0,
     "description": "AI-powered smartphone with advanced camera features.",
-    "Specification": ["6.7-inch OLED", "256GB storage", "50MP main camera"],
+    "specification": ["6.7-inch OLED", "256GB storage", "50MP main camera"],
     "availability": true,
     "rating": 4.7,
     "brand": "Google"
@@ -126,9 +126,33 @@
     "category": "Laptop",
     "price": 2499.99,
     "description": "High-performance laptop with the M2 Pro chip for professionals.",
-    "Specification": ["16-inch Liquid Retina XDR", "32GB RAM", "1TB SSD"],
+    "specification": ["16-inch Liquid Retina XDR", "32GB RAM", "1TB SSD"],
     "availability": true,
     "rating": 4.9,
     "brand": "Apple"
+  },
+  {
+    "product_id": 11,
+    "product_title": "Lenovo ThinkPad X1 Carbon Gen 11",
+    "product_image": "https://i.ibb.co.com/wNMBR6K/LENOVO-Thinkpad-13-1.jpg",
+    "category": "Laptop",
+    "price": 1699.99,
+    "description": "Lightweight business laptop with powerful performance and long battery life.",
+    "specification": ["14-inch WUXGA", "16GB RAM", "1TB SSD"],
+    "availability": true,
+    "rating": 4.7,
+    "brand": "Lenovo"
+  },
+  {
+    "product_id": 12,
+    "product_title": "Asus ROG Zephyrus G14",
+    "product_image": "https://i.ibb.co.com/RbghXXp/images.jpg",
+    "category": "Laptop",
+    "price": 1999.99,
+    "description": "Gaming laptop with high refresh rate display and exceptional performance.",
+    "specification": ["14-inch QHD", "32GB RAM", "1TB SSD"],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "Asus"
   }
 ]
