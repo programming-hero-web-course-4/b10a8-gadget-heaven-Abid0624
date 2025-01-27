@@ -1,13 +1,42 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { BsCart } from "react-icons/bs";
 import { CiHeart } from "react-icons/ci";
+import { addFavorite, addWishlist, getAllWishlist } from "../utils";
+import { useEffect, useState } from "react";
 
 const CardDetails = () => {
   const data = useLoaderData();
+
   const { id } = useParams();
-  console.log(data, id);
-  const singleCard = data.find((card) => card.product_id === parseInt(id));
-  console.log(singleCard);
+  const [product, setProduct] = useState({});
+  const [isWishlist, setIsWishlist] = useState(false);
+
+  // console.log(isWishlist);
+
+  useEffect(() => {
+    const singleCard = data.find((card) => card.product_id === parseInt(id));
+
+    setProduct(singleCard);
+    const wishlists = getAllWishlist();
+
+    const isExist = wishlists.find(
+      (item) => item.product_id === singleCard.product_id
+    );
+    console.log(isExist);
+    if (isExist) {
+      setIsWishlist(true);
+    }
+  }, [data, id]);
+
+  // Handle favorite button
+  const handleFavorite = (product) => {
+    addFavorite(product);
+  };
+
+  const handleWishlist = (product) => {
+    addWishlist(product);
+    setIsWishlist(true);
+  };
 
   return (
     <div className="container mx-auto">
@@ -30,19 +59,17 @@ const CardDetails = () => {
             <div className="w-2/5  flex justify-center items-center">
               <img
                 className="max-w-full h-[250px] rounded-xl"
-                src={singleCard.product_image}
+                src={product.product_image}
                 alt=""
               />
             </div>
             <div className="w-3/5 space-y-3">
               <h3 className="text-2xl font-semibold">
-                {singleCard.product_title}
+                {product.product_title}
               </h3>
-              <p className="text-xl font-semibold">
-                Price: ${singleCard.price}
-              </p>
+              <p className="text-xl font-semibold">Price: ${product.price}</p>
               <p>
-                {singleCard.availability ? (
+                {product.availability ? (
                   <div className="btn btn-outline btn-success rounded-full">
                     In Stock
                   </div>
@@ -52,10 +79,10 @@ const CardDetails = () => {
                   </div>
                 )}
               </p>
-              <p className="text-gray-500">{singleCard.description}</p>
+              <p className="text-gray-500">{product.description}</p>
               <ol className="text-xl list-decimal font-bold">
                 Specification:
-                {singleCard.specification.map((spec, idx) => (
+                {product.specification?.map((spec, idx) => (
                   <li
                     key={idx}
                     className="text-xl ml-4 font-normal text-gray-500 mt-2"
@@ -93,18 +120,29 @@ const CardDetails = () => {
                 />
               </div>
               <span className="ml-4 bg-gray-400 px-4 py-2 rounded-2xl">
-                {singleCard.rating}
+                {product.rating}
               </span>
               <div className="flex gap-6 items-center">
-                <button className="bg-primary text-white font-bold gap-2 p-3 flex justify-center items-center rounded-xl">
+                <button
+                  onClick={() => handleFavorite(product)}
+                  className="bg-primary text-white font-bold gap-2 p-3 flex justify-center items-center rounded-xl"
+                >
                   Add to Cart
                   <span>
                     {" "}
                     <BsCart className=""></BsCart>
                   </span>
                 </button>
-                <button className="bg-white flex justify-center border border-black items-center h-8 w-8 rounded-full">
-                  <CiHeart className="text-black"></CiHeart>
+                <button
+                  disabled={isWishlist}
+                  onClick={() => handleWishlist(product)}
+                  className={`flex justify-center items-center h-8 w-8 rounded-full border ${
+                    isWishlist
+                      ? "bg-gray-400 text-gray-700 cursor-not-allowed" // Disabled styles
+                      : "bg-white text-black cursor-pointer border-black" // Normal styles
+                  }`}
+                >
+                  <CiHeart />
                 </button>
               </div>
             </div>
