@@ -25,7 +25,7 @@ const Cards = () => {
           <Card key={gadget.product_id} gadget={gadget}></Card>
         ))
       ) : (
-        <div className="text-center col-span-full text-gray-500">
+        <div className="text-center col-span-full font-bold text-3xl text-gray-500">
           No products found for this category.
         </div>
       )}

@@ -1,12 +1,16 @@
 import { Outlet, useLoaderData } from "react-router-dom";
 import Banner from "../Components/Banner";
 import Categories from "../Components/Categories";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   const categories = useLoaderData();
 
   return (
     <div>
+      <Helmet>
+        <title>Gadget | Gadget Heaven</title>
+      </Helmet>
       {/* banner section */}
       <Banner></Banner>
       {/* heading section */}

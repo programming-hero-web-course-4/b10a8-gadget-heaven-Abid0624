@@ -22,7 +22,7 @@ const CardDetails = () => {
     const isExist = wishlists.find(
       (item) => item.product_id === singleCard.product_id
     );
-    console.log(isExist);
+
     if (isExist) {
       setIsWishlist(true);
     }

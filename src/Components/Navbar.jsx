@@ -39,7 +39,7 @@ const Navbar = () => {
                   `font-bold px-4 py-2 rounded ${
                     isActive
                       ? "bg-black text-white"
-                      : "hover:bg-black hover:text-white"
+                      : "hover:bg-black text-black hover:text-white"
                   }`
                 }
                 to="/"
@@ -51,7 +51,7 @@ const Navbar = () => {
                   `font-bold px-4 py-2 rounded ${
                     isActive
                       ? "bg-black text-white"
-                      : "hover:bg-black hover:text-white"
+                      : "hover:bg-black text-black hover:text-white"
                   }`
                 }
                 to="/statistics"
@@ -63,7 +63,7 @@ const Navbar = () => {
                   `font-bold px-4 py-2 rounded ${
                     isActive
                       ? "bg-black text-white"
-                      : "hover:bg-black hover:text-white"
+                      : "hover:bg-black text-black hover:text-white"
                   }`
                 }
                 to="/dashboard"
@@ -75,7 +75,7 @@ const Navbar = () => {
                   `font-bold px-4 py-2 rounded ${
                     isActive
                       ? "bg-black text-white"
-                      : "hover:bg-black hover:text-white"
+                      : "hover:bg-black text-black hover:text-white"
                   }`
                 }
                 to="/support"

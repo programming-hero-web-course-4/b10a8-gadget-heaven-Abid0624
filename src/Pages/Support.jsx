@@ -1,6 +1,11 @@
+import { Helmet } from "react-helmet";
+
 const Support = () => {
   return (
     <div>
+      <Helmet>
+        <title>Support | Gadget Heaven</title>
+      </Helmet>
       <div className="bg-primary pt-16 pb-10">
         <h1 className="font-bold lg:mx-36 text-center text-white text-3xl">
           Support
