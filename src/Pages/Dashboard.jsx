@@ -103,9 +103,9 @@ const Dashboard = () => {
 
       {showCart ? (
         <div>
-          <div className="flex w-11/12 my-6 mx-auto justify-between items-center">
+          <div className="flex w-11/12 my-6 mx-auto flex-col md:flex-row justify-between items-center">
             <h4 className="text-2xl font-bold">Cart</h4>
-            <div className="flex gap-10 items-center">
+            <div className="flex flex-col md:flex-row gap-10 items-center">
               <p className="text-xl font-bold">Total cost: ${totalCost}</p>
               <button
                 onClick={handleSort}

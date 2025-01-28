@@ -1,14 +1,14 @@
 const Footer = () => {
   return (
     <div>
-      <div className="bg-base-200 mt-10 py-24 px-36">
+      <div className="bg-base-300 mt-10 px-12 py-8 md:py-24 md:px-36">
         <div className="text-center space-y-2">
           <h2 className="text-3xl font-bold text-center">Gadget Heaven</h2>
           <p className="text-gray-500 font-semibold">
             Leading the way in cutting-edge technology and innovation.
           </p>
         </div>
-        <div className="my-8 flex justify-between items-center md:flex-row flex-col">
+        <div className="my-8 flex justify-between space-y-4 md:space-y-0 md:flex-row flex-col">
           <div className="text-center space-y-4">
             <h4 className="font-bold text-lg">Services</h4>
             <p className="text-gray-500">Product Support</p>
